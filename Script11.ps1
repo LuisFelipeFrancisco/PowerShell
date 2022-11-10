@@ -7,7 +7,7 @@ Clear-Host
 [float] $numero2 = Read-Host "Digite o segundo numero"
 [float] $numero3 = Read-Host "Digite o terceiro numero"
 
-[float] $prod = ($numero1*2) / ($numero2/2)
+[float] $prod = ($numero1*2) * ($numero2/2)
 [float] $soma = ($numero1*3) + $numero3
 [float] $cubo = [Math]::Pow($numero3,3)
 
