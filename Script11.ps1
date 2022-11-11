@@ -13,4 +13,4 @@ Clear-Host
 
 "O produto do dobro do 1º numero com a metade do 2º numero é: $prod"
 "A soma do do triplo do 1º numero com o 3º numero é: $soma"
-"O 3º numero elevado ao cubo é: $cubo"
+"O 3º numero elevado ao cubo é de: $cubo"
