@@ -1,4 +1,4 @@
-﻿#2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+#2. Faça um Programa que peça um valor e mostre na tela se o valor é positivo, negativo ou nulo.
 Clear-Host
 [float] $valor = Read-Host "Digite um valor: "
 
