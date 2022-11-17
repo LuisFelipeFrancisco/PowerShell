@@ -14,7 +14,8 @@ b. Venda a Prazo 30 dias - desconto de 5%
 c. Venda a Prazo 60 dias - mesmo preço
 d. Venda a Prazo 90 dias - acréscimo de 5%
 e. Venda com cartão de débito - desconto de 8%
-f. Venda com cartão de crédito - desconto de 7%"
+f. Venda com cartão de crédito - desconto de 7%
+"
 
 switch ($condicao) {
     "a" { $valor = $valor - ($valor * 0.1) }
