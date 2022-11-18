@@ -4,8 +4,8 @@ Clear-Host
 [int] $numero2 = Read-Host "Digite o segundo numero"
 
 if ($numero1 -gt $numero2) {
-    Write-Host "O maior numero é $numero1"
+    Write-Output "O maior numero é $numero1"
 }
 else {
-    Write-Host "O maior numero é $numero2"
+    Write-Output "O maior numero é $numero2"
 }

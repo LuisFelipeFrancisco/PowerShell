@@ -26,4 +26,4 @@ switch ($condicao) {
     "f" { $valor = $valor - ($valor * 0.07) }
     default { $valor = "Opção inválida" }
 }
-Write-Host "O valor final da venda é: R$ $valor"
+Write-Output "O valor final da venda é: R$ $valor"
