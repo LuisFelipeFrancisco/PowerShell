@@ -12,10 +12,10 @@ $media = ($nota1 + $nota2) / 2
 
 if ($media -ge 7) {
     if ($media -eq 10) {
-        Write-Host "Aprovado com honras"
+        Write-Output "Aprovado com honras"
     } else {
-        Write-Host "Aprovado"
+        Write-Output "Aprovado"
     }
 } else {
-    Write-Host "Reprovado"
+    Write-Output "Reprovado"
 }

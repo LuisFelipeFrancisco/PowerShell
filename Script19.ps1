@@ -19,9 +19,9 @@ Escolha a opção"
 [float] $resultado104 = $numero * 2
 
 switch ($opcao) {
-    101 {Write-Host "A raiz quadrada de $numero é $resultado101"}
-    102 {Write-Host "A metade de $numero é $resultado102"}
-    103 {Write-Host "10% de $numero é $resultado103"}
-    104 {Write-Host "O dobro de $numero é $resultado104"}
-    default {Write-Host "Opção inválida"}
+    101 {Write-Output "A raiz quadrada de $numero é $resultado101"}
+    102 {Write-Output "A metade de $numero é $resultado102"}
+    103 {Write-Output "10% de $numero é $resultado103"}
+    104 {Write-Output "O dobro de $numero é $resultado104"}
+    default {Write-Output "Opção inválida"}
 }
