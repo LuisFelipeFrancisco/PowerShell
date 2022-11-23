@@ -104,15 +104,13 @@
 | --- | --- |
 | `Write-Output` | Write output |
 | `Write-Output "value"` | Write output with value |
-| `Write-Output "value" \| Out-File -FilePath "file.txt"` | Write output with value to file |
 
 ## Reading input
 
 | Cmdlet | Description |
 | --- | --- |
-| `Get-Content` | Read file |
-| `Get-Content -Path "file.txt"` | Read file with path |
-| `Get-Content -Path "file.txt" \| % { $_ }` | Read file with path and output each line |
+| `Read-Host` | Read input |
+| `Read-Host -Prompt "Enter value"` | Read input with prompt |
 
 ## Assignment
 
@@ -125,19 +123,6 @@
 | `/=` | Divide and assign |
 | `%=` | Modulus and assign |
 
-## Split
-
-| Cmdlet | Description |
-| --- | --- |
-| `Split` | Split |
-| `Split("value1")` | Split on value1 |
-
-## Join
-
-| Cmdlet | Description |
-| --- | --- |
-| `Join` | Join |
-| `Join("value1")` | Join on value1 |
 
 ## Comments
 
