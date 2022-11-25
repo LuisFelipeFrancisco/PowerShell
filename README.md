@@ -1,3 +1,14 @@
+# PowerShell Class Activities
+
+This repository contains the activities for the PowerShell class.
+
+### Resources
+
+* [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
+* [PowerShell Gallery](https://www.powershellgallery.com/)
+* [PowerShell Reference](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/?view=powershell-7.1)
+* [Introduction to scripting in PowerShell](https://learn.microsoft.com/en-us/training/modules/script-with-powershell/)
+---
 # PowerShell Cheat Sheet
 
 ## Basics
