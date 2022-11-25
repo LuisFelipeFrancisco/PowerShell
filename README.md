@@ -1,6 +1,6 @@
 # PowerShell Class Activities
 
-This repository contains the activities for the PowerShell class.
+This repository contains the activities for the PowerShell class, taught by Prof. Carolinne Roque e Faria at the Fatec Ourinhos.
 
 ### Resources
 
